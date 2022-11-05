@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>World Population</title>
+  </head>
+  <body>
+    <div class="main-header">
+      <h1>World Population</h1>
+      <div class="continentsDiv">
+        <!-- <button class="btn africa">Africa</button>
+        <button class="btn americas">Americas</button>
+        <button class="btn asia">Asia</button>
+        <button class="btn europe">Europe</button>
+        <button class="btn oceania">Oceania</button> -->
+      </div>
+      <div class="spinner-container hidden">
+        <img
+          class="spinner"
+          src="imgs/כדור הארץ.png"
+          alt="icon"
+          style="width: 100px; height: 100px"
+        />
+      </div>
+      <div class="chart">
+      <div>
+        <canvas id="myChart" width="300" height="200"></canvas>
+      </div>
+    </div>
+    <div class="countriesDiv"></div>
+    </div>
+    
+   <script type="module" src="app.js"></script>
+  </body>
+</html>
